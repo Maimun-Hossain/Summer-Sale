@@ -21,6 +21,8 @@ function btnAction(call) {
 
   if (parseFloat(totalPrice.innerText) >= 200) {
     couponBtn.disabled = false;
+  }
+  if (parseFloat(totalPrice.innerText) >= 1) {
     purchaseBtn.disabled = false;
   }
 }
